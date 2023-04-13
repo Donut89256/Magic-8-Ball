@@ -11,7 +11,30 @@
     <link rel="stylesheet" href="Css/Styles.css">
 </head>
 <body>
-    <!-- Boorstrap JS v5.2 CDN -->
+    <header>
+        <div class="bg-light text-light text-center" id="jumbotron-section-service">
+            <div class="container d-flex flex-column justify-content-end h-100">
+              <h1 class="display-1 fw-bolder text-primary"> The Magic 8 Ball !</h1><br>
+              <p class="fst-italic text-primary">Ask it any question, and fortune will answer.</p>
+              <p class="text-danger"><span>&#8486;</span> But Beware, Fate can often be unfortunate <span>&#8486;</span></p>
+            </div>
+          </div>
+    </header>
+    <main class="container container-fluid bg-secondary d-flex justify-content-center">
+        <section>
+            <div>
+                <h3 class="text-center text-light ">What is you Question?</h3>
+                <input type="text" placeholder="Your Question">
+                <button class="d-flex" onclick="submit()">Ask</button>
+                <img src="Img/magic8ball_start.png" alt="" id="answer"
+                width="500" height="500">
+            </div>
+            <div></div>
+        </section>
+        
+    </main>
+    <footer></footer>
+    <script src="JS/Main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
